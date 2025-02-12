@@ -1,6 +1,6 @@
 # LUXU Car Showroom Website
 
-![LUXU Logo](link/to/your/logo.png)
+website link --- https://67ac64b531bc36e63fcc751b--beamish-sawine-5e7d4a.netlify.app/
 
 ## Overview
 
