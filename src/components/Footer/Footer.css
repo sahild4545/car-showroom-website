@@ -1,0 +1,44 @@
+.footer {
+    position: relative;
+    top: 150px;
+    background: rgb(206, 14, 14);
+}
+
+/* Ensuring text is visible */
+.footer a {
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #c8102e; /* Changes color on hover */
+}
+
+.footer .footer-title {
+    color: white;
+    font-weight: bold;
+}
+
+.footer p {
+    color: white;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer nav {
+        margin-bottom: 15px;
+    }
+
+    .footer a {
+        display: block;
+    }
+}

@@ -1,0 +1,102 @@
+.mainadd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    padding: 20px;
+    color: white;
+}
+
+.leftadd img {
+    width: 100%;
+    max-width: 500px; /* Ensures image does not overflow */
+}
+
+.rightimg {
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle; /* Aligns the icon properly */
+}
+
+.rightadd {
+    text-align: left;
+    max-width: 500px;
+}
+
+.rightadd h1 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.rightadd p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.rightadd ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rightadd li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rightadd button {
+    background-color: rgb(206, 14, 14);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.rightadd button:hover {
+    background-color: rgb(180, 10, 10);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1130px) {
+    .mainadd {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leftadd img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .rightimg {
+        display: none; /* Hide the icons on smaller screens */
+    }
+
+    .rightadd {
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+    .rightadd h1 {
+        font-size: 30px;
+    }
+
+    .rightadd p {
+        font-size: 16px;
+    }
+
+    .rightadd button {
+        width: 80%;
+        max-width: 250px;
+        margin: 0 auto;
+        display: block;
+    }
+}
